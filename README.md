@@ -1,26 +1,27 @@
-# Android Project 3 - *Flixster*
 
-Submitted by: **Flixster**
+# Android Project 4 - *Flixster+ Part 2*
 
-**Flixster** is a movie browsing app that allows users to browse movies currently playing in theaters.
+Submitted by: **Fardeen Iqbal**
 
-Time spent: **3.5** hours spent in total
+**Flixster+ Part 2** is a movie browsing app that allows users to browse ... popular movies 
+
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
-- [X] **Parse through JSON data and implement a RecyclerView to display all movies**
-- [X] **Use Glide to load and display movie poster images**
+- [X] **Choose any endpoint on The MovieDB API except `now_playing`**
+  - Chosen Endpoint: `https://api.themoviedb.org/3/movie/popular`
+- [X] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [X] **Use Glide to load and display at least one image per entry**
+- [X] **Click on an entry to view specific details about that entry using Intents**
 
 The following **optional** features are implemented:
 
-- [ ] Improve and customize the user interface through styling and coloring
-- [ ] Implement orientation responsivity
-  - App should neatly arrange data in both landscape and portrait mode
-- [ ] Implement Glide to display placeholder graphics during loading
-  - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
+- [ ] **Add another API call and RecyclerView that lets the user interact with different data.** 
+- [ ] **Add rounded corners to the images using the Glide transformations**
+- [ ] **Implement a shared element transition when user clicks into the details of a movie**
 
 The following **additional** features are implemented:
 
@@ -30,11 +31,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/FardeenI/Flixster/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/FardeenI/Flixster-Part-2/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-MacOS Screen capture
-MOV to GIF - https://cloudconvert.com/mov-to-gif
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
